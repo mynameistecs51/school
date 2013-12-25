@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Dashboard - SB Admin</title>
+    <title><?php echo $title;?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo base_url().'css/bootstrap.css';?>" rel="stylesheet">

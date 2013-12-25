@@ -19,8 +19,8 @@ class Ctl_main extends CI_Controller {
 
 	//เพิ่มข้อมูลนักเรียน
 	public function student_info(){
-		$data['title'] = "เพิ่มข้อมูลนักเรียน";
-		$this->load->view('admin/add_student',$data);
+		$data['title'] = "ข้อมูลนักเรียน";
+		$this->load->view('admin/student_info',$data);
 	}
 }
 ?>

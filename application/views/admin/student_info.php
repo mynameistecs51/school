@@ -36,13 +36,17 @@
 					<div class="modal-body">
 						<form role="form" class="form-inline">
 							<div class="form-group">
-								<span class="control-label">ข้อมูลใช้ล๊อคอิน</span>
+								<span class="control-label">ข้อมูลใช้ล๊อคอิน</span><br/>
 								<div class="controls form-inline">
-									<label for="inputValue">password</label>
-									<input type="email" class="input-small" id="exampleInputEmail2" placeholder="Enter email">
+									<label for="inputValue">Username:</label>
+									<input type="text" class="input-small" id="exampleInputEmail2" placeholder="ชื่อที่ใช้ login">
 
 									<label for="inputValue">password</label>
 									<input type="password" class="input-small" placeholder="Value" id="inputValue">
+								</div>
+								<span>ข้อมูลทะเบียนและวัดผล</span><br/>
+								<div class="controls form-inline">
+									<label for="inputValue">ชื่อ</label>
 								</div>
 							</div>
 						</form><!--enform -->

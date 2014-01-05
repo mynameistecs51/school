@@ -34,34 +34,47 @@
 						<h4 class="modal-title" id="myModalLabel"><i class="fa fa-user">  เพิ่มข้อมูลนักเรียน</i></h4>
 					</div>
 					<div class="modal-body">
-						<form class="form-horizontal" role="form">
-							<div class="form-group">
-								<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
-								<div class="col-sm-10">
-									<input type="email" class="form col-sm-2" id="inputEmail3" placeholder="Email">
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
-								<div class="col-sm-10">
-								<input type="text" class="input-sm col-sm-2" id="user_name" name="user_name" >
-								</div>
-							</div>
-							<div class="form-group">
-								<div class="col-sm-offset-2 col-sm-10">
-									<div class="checkbox">
-										<label>
-											<input type="checkbox"> Remember me
-										</label>
+						<fieldset>
+							<form class="form-horizontal" role="form">
+								<legend>ข้อมูลที่ใช้ login </legend>
+								<div class="form-group">
+									
+									<div class="col-sm-10">
+										<label for="inputUsername" class="col-sm-2 control-label">Username:</label>
+										<input type="text" class="input-sm col-sm-2" id="inputUsername" placeholder="ชื่อที่ใช้ login">
+
+										<label for="inputPassword" class="col-sm-2 control-label">Password:</label>
+
+										<input type="password" class="input-sm col-sm-2"  id="inputPassword" placeholder="รหัสผ่าน">
 									</div>
 								</div>
-							</div>
-							<div class="form-group">
-								<div class="col-sm-offset-2 col-sm-10">
-									<button type="submit" class="btn btn-default">Sign in</button>
+								<legend>ข้อมูลทะเบียนและวัดผล</legend>
+								<div class="form-group">
+									
+									<div class="col-sm-10">
+											<label for="inputRadio" class="radio">เพศ:</label>
+											<input type="radio" name="sex" id="sex_male" value="Male" checked="checked">ชาย
+											
+											<input type="radio" name="sex" id="sex_female" value="Female">หญิง
+										
+									</div>
 								</div>
-							</div>
-						</form> <!--enform -->
+								<div class="form-group">
+									<div class="col-sm-offset-2 col-sm-10">
+										<div class="checkbox">
+											<label>
+												<input type="checkbox"> Remember me
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-offset-2 col-sm-10">
+										<button type="submit" class="btn btn-default">Sign in</button>
+									</div>
+								</div>
+							</form>
+						</fieldset> <!--enform -->
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Class</button>

@@ -37,11 +37,10 @@
 						<fieldset>
 							<form class="form-horizontal" role="form">
 								<legend>ข้อมูลที่ใช้ login </legend>
-								<div class="form-group">
-									
+								<div class="form-group">									
 									<div class="col-sm-10">
 										<label for="inputUsername" class="col-sm-2 control-label">Username:</label>
-										<input type="text" class="input-sm col-sm-2" id="inputUsername" placeholder="ชื่อที่ใช้ login">
+										<input type="text" class="input-sm col-sm-2"  placeholder="ชื่อที่ใช้ login" autofocus >
 
 										<label for="inputPassword" class="col-sm-2 control-label">Password:</label>
 
@@ -50,13 +49,32 @@
 								</div>
 								<legend>ข้อมูลทะเบียนและวัดผล</legend>
 								<div class="form-group">
-									
 									<div class="col-sm-10">
-											<label for="inputRadio" class="radio">เพศ:</label>
-											<input type="radio" name="sex" id="sex_male" value="Male" checked="checked">ชาย
-											
-											<input type="radio" name="sex" id="sex_female" value="Female">หญิง
-										
+										<label class="col-sm-4 control-label">ชื่อ(ภาษาไทย)
+											<select class="selectpicker">
+												<option value="เด็กชาย">เด็กชาย</option>
+												<option value="เด็กหญิง">เด็กหญิง</option>
+												<option value="นาย">นาย</option>
+												<option value="นางสาว">นางสาว</option>
+											</select>
+										</label>
+										<input type="text" class="input-sm col-sm-3" placeholder="ชื่อ(ไทย)">
+										<label class="col-sm-2 control-label">สกุล(ภาษาไทย)</label>
+										<input type="text" class="input-sm col-sm-3" placeholder="นามสกุล(ไทย)">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-10">
+										<label class="col-sm-4 control-label">ชื่อ(ภาษาอังกฤษ)
+											<select class="selectpicker">
+												<option value="Master">Master</option><!--เด็กชาย-->
+												<option value="Mr">Mr.</option><!--นาย-->
+												<option value="Miss">Miss</option><!--นางสาว-->
+											</select>
+										</label>
+										<input type="text" class="input-sm col-sm-3" placeholder="ชื่อ(อังกฤษ)">
+										<label class="col-sm-2 control-label">สกุล(ภาษาไทย)</label>
+										<input type="text" class="input-sm col-sm-3" placeholder="นามสกุล(ภาษาอังกฤษ)">
 									</div>
 								</div>
 								<div class="form-group">

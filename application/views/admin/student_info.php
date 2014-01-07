@@ -50,7 +50,7 @@
 								<legend>ข้อมูลทะเบียนและวัดผล</legend>
 								<div class="form-group">
 									<div class="col-sm-10">
-										<label class="col-sm-4 control-label">ชื่อ(ภาษาไทย)
+										<label class="col-sm-4 control-label">ชื่อ(ไทย)
 											<select class="selectpicker">
 												<option value="เด็กชาย">เด็กชาย</option>
 												<option value="เด็กหญิง">เด็กหญิง</option>
@@ -59,13 +59,13 @@
 											</select>
 										</label>
 										<input type="text" class="input-sm col-sm-3" placeholder="ชื่อ(ไทย)">
-										<label class="col-sm-2 control-label">สกุล(ภาษาไทย)</label>
+										<label class="col-sm-2 control-label">สกุล(ไทย)</label>
 										<input type="text" class="input-sm col-sm-3" placeholder="นามสกุล(ไทย)">
 									</div>
 								</div>
 								<div class="form-group">
 									<div class="col-sm-10">
-										<label class="col-sm-4 control-label">ชื่อ(ภาษาอังกฤษ)
+										<label class="col-sm-4 control-label">ชื่อ(อังกฤษ)
 											<select class="selectpicker">
 												<option value="Master">Master</option><!--เด็กชาย-->
 												<option value="Mr">Mr.</option><!--นาย-->
@@ -73,8 +73,18 @@
 											</select>
 										</label>
 										<input type="text" class="input-sm col-sm-3" placeholder="ชื่อ(อังกฤษ)">
-										<label class="col-sm-2 control-label">สกุล(ภาษาไทย)</label>
+										<label class="col-sm-2 control-label">สกุล(อังกฤษ)</label>
 										<input type="text" class="input-sm col-sm-3" placeholder="นามสกุล(ภาษาอังกฤษ)">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-10">
+										<label class="col-sm-2 control-label">ว/ด/ป เกิด:</label>
+										<input type="date" class="input-sm col-sm-2" >
+										<label class="col-sm-2 control-label">นับถือศาสนา</label>
+										<input type="text" class="input-sm col-sm-2">
+										<label class="col-sm-2 control-label">เชื้อชาติ</label>
+										<input type="text" class="input-sm col-sm-2">	
 									</div>
 								</div>
 								<div class="form-group">

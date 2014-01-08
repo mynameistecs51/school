@@ -88,6 +88,20 @@
 									</div>
 								</div>
 								<div class="form-group">
+									<div class="col-sm-10">
+										<label class="col-sm-2 control-label">สถานภาพของนักเรียน</label>
+										<span class="label label-default"><input type="radio" name="relationship"  value="อยู่กับบิดา-มารดา">อยู่กับบิดา-มารดา</span>
+										<input type="radio" name="relationship" value="อยู่กับบิดา">อยู่กับบิดา
+										<input type="radio" name="relationship" value="อยู่กับมารดา">อยู่กับมารดา
+										<input type="radio" name="relationship" value="บิดาถึงแก่กรรม">บิดาถึงแก่กรรม
+										<input type="radio" name="relationship" value="มารดาถึงแก่กรรม">มารดาถึงแก่กรรม
+										<input type="radio" name="relationship" value="บิดา-มารดา หย่าร้างกัน">บิดา-มารดา หย่าร้างกัน
+										<input type="radio" name="relationship" value="">บุคคลอื่น / ผู้ปกครอง โปรดระบุความสัมพันธ์
+										<input type="text" class="input-sm-3" name="relationship">
+									</div>
+								</div>
+
+								<div class="form-group">
 									<div class="col-sm-offset-2 col-sm-10">
 										<div class="checkbox">
 											<label>

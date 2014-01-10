@@ -24,18 +24,19 @@
 			</tbody>
 		</table>
 	</div>
-	<!-- add student dialog -->
+
+	<!-- //////////////add student dialog///////////// -->
 	<div class="row">
 		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-			<div class="modal-dialog-sm">
+			<div class="modal-dialog-xs">
 				<div class="modal-content">
 					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;ออก</button>
 						<h4 class="modal-title" id="myModalLabel"><i class="fa fa-user">  เพิ่มข้อมูลนักเรียน</i></h4>
 					</div>
-					<div class="modal-body">
-						<fieldset>
-							<form class="form-horizontal" role="form">
+					<div class="modal-body">						
+						<form class="form-horizontal" role="form">
+							<fieldset>
 								<legend>ข้อมูลที่ใช้ login </legend>
 								<div class="form-group">									
 									<div class="col-sm-10">
@@ -90,17 +91,47 @@
 								<div class="form-group">
 									<div class="col-sm-10">
 										<label class="col-sm-2 control-label">สถานภาพของนักเรียน</label>
-										<span class="label label-default"><input type="radio" name="relationship"  value="อยู่กับบิดา-มารดา">อยู่กับบิดา-มารดา</span>
-										<input type="radio" name="relationship" value="อยู่กับบิดา">อยู่กับบิดา
-										<input type="radio" name="relationship" value="อยู่กับมารดา">อยู่กับมารดา
-										<input type="radio" name="relationship" value="บิดาถึงแก่กรรม">บิดาถึงแก่กรรม
-										<input type="radio" name="relationship" value="มารดาถึงแก่กรรม">มารดาถึงแก่กรรม
-										<input type="radio" name="relationship" value="บิดา-มารดา หย่าร้างกัน">บิดา-มารดา หย่าร้างกัน
-										<input type="radio" name="relationship" value="">บุคคลอื่น / ผู้ปกครอง โปรดระบุความสัมพันธ์
+										<span class="label label-primary"><input type="radio" name="relationship"  value="อยู่กับบิดา-มารดา">อยู่กับบิดา-มารดา</span>
+										<span class="label label-default"><input type="radio" name="relationship" value="อยู่กับบิดา">อยู่กับบิดา</span>
+										<span class="label label-primary"><input type="radio" name="relationship" value="อยู่กับมารดา">อยู่กับมารดา</span>
+										<span class="label label-default"><input type="radio" name="relationship" value="บิดาถึงแก่กรรม">บิดาถึงแก่กรรม</span>
+										<span class="label label-primary"><input type="radio" name="relationship" value="มารดาถึงแก่กรรม">มารดาถึงแก่กรรม</span>
+										<span class="label label-default"><input type="radio" name="relationship" value="บิดา-มารดา หย่าร้างกัน">บิดา-มารดา หย่าร้างกัน</span><br/>
+										<span class="label label-primary"><input type="radio" name="relationship" value="">บุคคลอื่น / ผู้ปกครอง โปรดระบุความสัมพันธ์</span>
 										<input type="text" class="input-sm-3" name="relationship">
 									</div>
 								</div>
-
+								<div class="form-group">
+									<div class="col-sm-10">
+										<label class="col-sm-3">ที่อยู่ปัจจุบันที่สามารถติดต่อได้</label>
+										<label class="col-md-1 control-lobel">เลขที่</label>
+										<input type="text" class="input-sm col-sm-1">
+										<label class="col-sm-1 control-label">หมู่</label>
+										<input type="text" class="input-sm col-sm-1">
+										<label class="col-sm-1 control-label">ถนน</label>
+										<input type="text" class="input-sm col-sm-2">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-10">
+										<span class="col-sm-1"></span>
+										<label class="col-sm-1">ซอย</label>
+										<input type="text" class="input-sm col-sm-2">
+										<label class="col-sm-2 control-label">ตำบล/แขวง</label>
+										<input type="text" class="input-sm col-sm-2">
+										<label class="col-sm-2 control-label">อำเภอ/เขต</label>
+										<input type="text" class="input-sm col-sm-2">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-10">
+										<span class="col-sm-1"></span>
+										<label class="col-sm-1">จังหวัด</label>
+										<input type="text" class="input-sm col-sm-2">
+										<label class="col-sm-2 control-label">รหัสไปรษณีย์</label>
+										<input type="text" class="input-sm col-sm-2">
+									</div>
+								</div>
 								<div class="form-group">
 									<div class="col-sm-offset-2 col-sm-10">
 										<div class="checkbox">
@@ -115,8 +146,9 @@
 										<button type="submit" class="btn btn-default">Sign in</button>
 									</div>
 								</div>
-							</form>
-						</fieldset> <!--enform -->
+							</fieldset> <!--enform -->
+						</form>
+						
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Class</button>

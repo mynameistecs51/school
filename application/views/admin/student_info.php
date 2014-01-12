@@ -29,12 +29,12 @@
 	<div class="row">
 		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 			<div class="modal-dialog-xs">
-				<div class="modal-content">
+				<div class="modal-content ">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;ออก</button>
 						<h4 class="modal-title" id="myModalLabel"><i class="fa fa-user">  เพิ่มข้อมูลนักเรียน</i></h4>
 					</div>
-					<div class="modal-body">						
+					<div class="modal-body col-xs-50">						
 						<form class="form-horizontal" role="form">
 							<fieldset>
 								<legend>ข้อมูลที่ใช้ login </legend>
@@ -91,13 +91,13 @@
 								<div class="form-group">
 									<div class="col-sm-10">
 										<label class="col-sm-2 control-label">สถานภาพของนักเรียน</label>
-										<span class="label label-primary"><input type="radio" name="relationship"  value="อยู่กับบิดา-มารดา">อยู่กับบิดา-มารดา</span>
-										<span class="label label-default"><input type="radio" name="relationship" value="อยู่กับบิดา">อยู่กับบิดา</span>
-										<span class="label label-primary"><input type="radio" name="relationship" value="อยู่กับมารดา">อยู่กับมารดา</span>
-										<span class="label label-default"><input type="radio" name="relationship" value="บิดาถึงแก่กรรม">บิดาถึงแก่กรรม</span>
-										<span class="label label-primary"><input type="radio" name="relationship" value="มารดาถึงแก่กรรม">มารดาถึงแก่กรรม</span>
-										<span class="label label-default"><input type="radio" name="relationship" value="บิดา-มารดา หย่าร้างกัน">บิดา-มารดา หย่าร้างกัน</span><br/>
-										<span class="label label-primary"><input type="radio" name="relationship" value="">บุคคลอื่น / ผู้ปกครอง โปรดระบุความสัมพันธ์</span>
+										<label class="label label-primary"><input type="radio" name="relationship"  value="อยู่กับบิดา-มารดา">อยู่กับบิดา-มารดา</label>
+										<label class="label label-default"><input type="radio" name="relationship" value="อยู่กับบิดา">อยู่กับบิดา</label>
+										<label class="label label-primary"><input type="radio" name="relationship" value="อยู่กับมารดา">อยู่กับมารดา</label>
+										<label class="label label-default"><input type="radio" name="relationship" value="บิดาถึงแก่กรรม">บิดาถึงแก่กรรม</label>
+										<label class="label label-primary"><input type="radio" name="relationship" value="มารดาถึงแก่กรรม">มารดาถึงแก่กรรม</label>
+										<label class="label label-default"><input type="radio" name="relationship" value="บิดา-มารดา หย่าร้างกัน">บิดา-มารดา หย่าร้างกัน</label><br/>
+										<label class="label label-primary"><input type="radio" name="relationship" value="">บุคคลอื่น / ผู้ปกครอง โปรดระบุความสัมพันธ์</label>
 										<input type="text" class="input-sm-3" name="relationship">
 									</div>
 								</div>
@@ -130,6 +130,71 @@
 										<input type="text" class="input-sm col-sm-2">
 										<label class="col-sm-2 control-label">รหัสไปรษณีย์</label>
 										<input type="text" class="input-sm col-sm-2">
+									</div>									
+								</div>
+								<hr/>
+								<div class="form-group">
+									<div class="col-sm-10">
+										<label class="col-sm-3 control-label">ปัจจุบันเป็นนักเรียนชั้น</label>
+										<input type="text" class="input-sm col-sm-1">
+										<label class="col-sm-2 control-label">โรงเรียน</label>
+										<input type="text" class="input-sm col-sm-4">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-10">
+										<label class="col-sm-2 control-label">อำเภอ</label>
+										<input type="text" class="input-sm col-sm-2">
+										<label class="col-sm-2 control-label">จังหวัด</label>
+										<input type="text" class="input-sm col-sm-3">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-10">
+										<label class="col-sm-3 control-label">เหตุผลที่สมัครเข้าเรียนที่นี้</label>
+										<textarea class="input-sm col-sm-5" rows="3" cols="30"></textarea>
+									</div>
+								</div>
+								<hr/>
+								<div class="form-group">
+									<div class="col-xs-30">
+										<label class="col-sm-1 control-label">บิดาชื่อ</label>
+										<input type="text" class="input-sm col-sm-2">
+										<label class="col-sm-1 control-label">สกุล</label>
+										<input type="text" class="input-sm col-sm-2">
+										<label class="col-sm-1 control-label">อาชีพ</label>
+										<input type="text" class="input-sm col-sm-2">
+										<label class="col-sm-1 control-label">มือถือ</label>
+										<input type="text" class="input-sm col-md-2">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-xs-30">
+										<label class="col-sm-1 control-label">มารดาชื่อ</label>
+										<input type="text" class="input-sm col-sm-2">
+										<label class="col-sm-1 control-label">สกุล</label>
+										<input type="text" class="input-sm col-sm-2">
+										<label class="col-sm-1 control-label">อาชีพ</label>
+										<input type="text" class="input-sm col-sm-2">
+										<label class="col-sm-1 control-label">มือถือ</label>
+										<input type="text" class="input-sm col-md-2">
+									</div>
+								</div>
+								<div class="from-group">
+									<div class="col-sm-10">
+										<label class="col-sm-20">***กรณีนักเรียนไม่ได้อาศัยอยู่กับบิดา - มารดา กรุณาระบุชื่อ และที่อยู่ผู้ปกครอง***</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-30">
+										<label class="col-sm-2 control-label">ผู้ปกครองชื่อ</label>
+										<input type="text" class="input-sm col-sm-2">
+										<label class="col-sm-1 control-label">สกุล</label>
+										<input type="text" class="input-sm col-sm-2">
+										<label class="col-sm-1 control-label">อาชีพ</label>
+										<input type="text" class="input-sm col-sm-2">
+										<label class="col-sm-1 control-label">มือถือ</label>
+										<input type="text" class="input-sm col-md-2">
 									</div>
 								</div>
 								<div class="form-group">

@@ -186,15 +186,32 @@
 									</div>
 								</div>
 								<div class="form-group">
-									<div class="col-sm-30">
-										<label class="col-sm-2 control-label">ผู้ปกครองชื่อ</label>
+									<div class="col-xs-10">
+										<label class="col-sm-3 control-label">ผู้ปกครองชื่อ</label>
+										<input type="text" class="input-sm col-sm-3">
+										<label class="col-sm-2 control-label">สกุล</label>
+										<input type="text" class="input-sm col-sm-3">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-10">
+										<label class="col-sm-3 control-label">อาชีพ</label>
+										<input type="text" class="input-sm col-sm-3">
+										<label class="col-sm-2 control-label">มือถือ</label>
+										<input type="text" class="input-sm col-md-3">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-20">
+										<label class="col-sm-3">ที่อยู่ปัจจุบันที่สามารถติดต่อได้</label>
+										<label class="col-sm-1 control-label">เลขที่</label>
+										<input type="text" class="input-sm col-sm-1">
+										<label class="col-sm-1 control-label">หมู่ที่</label>
+										<input type="text" class="input-sm col-sm-1">
+										<label class="col-sm-1 control-label">ถนน</label>
 										<input type="text" class="input-sm col-sm-2">
-										<label class="col-sm-1 control-label">สกุล</label>
+										<label class="col-sm-1 control-label">ซอย</label>
 										<input type="text" class="input-sm col-sm-2">
-										<label class="col-sm-1 control-label">อาชีพ</label>
-										<input type="text" class="input-sm col-sm-2">
-										<label class="col-sm-1 control-label">มือถือ</label>
-										<input type="text" class="input-sm col-md-2">
 									</div>
 								</div>
 								<div class="form-group">

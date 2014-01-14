@@ -210,22 +210,26 @@
 										<input type="text" class="input-sm col-sm-1">
 										<label class="col-sm-1 control-label">ถนน</label>
 										<input type="text" class="input-sm col-sm-2">
-										<label class="col-sm-1 control-label">ซอย</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-10">
+										<label class="col-sm-2 control-label">ซอย</label>
+										<input type="text" class="input-sm col-sm-2">
+										<label class="col-sm-2 control-label">ตำบล/แขวง</label>
+										<input type="text" class="input-sm col-sm-2">
+										<label class="col-sm-2 control-label">อำเภอ/เขต</label>
 										<input type="text" class="input-sm col-sm-2">
 									</div>
 								</div>
 								<div class="form-group">
-									<div class="col-sm-offset-2 col-sm-10">
-										<div class="checkbox">
-											<label>
-												<input type="checkbox"> Remember me
-											</label>
-										</div>
-									</div>
-								</div>
-								<div class="form-group">
-									<div class="col-sm-offset-2 col-sm-10">
-										<button type="submit" class="btn btn-default">Sign in</button>
+									<div class="col-sm-10">
+										<label class="col-sm-2 control-label">จังหวัด</label>
+										<input type="text" class="input-sm col-sm-2">
+										<label class="col-sm-2 control-label">รหัสไปรษณีย์</label>
+										<input type="text" class="input-sm col-sm-2">
+										<label class="col-sm-2 control-label">โทรศัพท์</label>
+										<input type="tel" class="input-sm col-sm-2" data-format="ddd-ddd-dddd">
 									</div>
 								</div>
 							</fieldset> <!--enform -->
